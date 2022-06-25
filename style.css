@@ -180,8 +180,8 @@ h2 {
 }
 
 .equipo__galeria__imagen{
-   height: 30vh;
-   width: 40vh;
+   height: 50%;
+   width: 50%;
    object-fit: cover;
   
 }
@@ -264,7 +264,7 @@ h2 {
     display:inline-block;
     width: 20vh;
     height: 5vh;
-    /*no entiendo por que no se me va al fondo el footer*/
+   ; /*no entiendo por que no se me va al fondo el footer*/
  }
   
  .footer{
@@ -293,30 +293,36 @@ h2 {
     color:#fff;
     text-decoration: none;
 }
- /*
+ 
 @media only screen and (max-width: 480px){
     .contenedor {
-       grid-column: 2;
+       grid-column: 1;
     }
     .contendor__header{
-        grid-column: 2/-1;
+        grid-column: 1/-1;
         
     }
    .contenedor__home2{
-    grid-column: 1/-1;
+    grid-column: 3/-1;
     
     }
    .contenedor__equipo {
     grid-column: 1/-1;
+
+        height: 30%;
+        width: 30%;
+        object-fit: cover;
    }
    .contenedor__servicios{
     grid-column: 1;
    }
    .contenedor__contacto{
     grid-column: 1/-1;
+    grid-row: 5;
    }
    .footer {
     grid-column: 1/-1;
+    grid-row: -1;
    }
 
-} */
+} 
